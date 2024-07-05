@@ -159,7 +159,8 @@
           </blockquote>
           <!-- 订阅 -->
           <div class="myCenter" id="article-like" @click="subscribeLabel()">
-            <i class="el-icon-thumb article-like-icon" :class="{'article-like': subscribe}"></i>
+            <el-icon class="article-like-icon" :class="{'article-like': subscribe}"><Pointer /></el-icon>
+            <!-- <i class="el-icon-thumb article-like-icon" :class="{'article-like': subscribe}"></i> -->
           </div>
 
           <!-- 评论 -->

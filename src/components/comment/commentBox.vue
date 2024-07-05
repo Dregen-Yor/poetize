@@ -1,3 +1,6 @@
+<script setup>
+import { Orange,Picture } from '@element-plus/icons-vue'
+</script>
 <template>
   <div>
     <!-- 框 -->
@@ -11,10 +14,12 @@
       <div style="display: flex">
         <div :class="{'emoji-active':showEmoji}"
              @click="showEmoji = !showEmoji">
-          <i class="el-icon-orange myEmoji"></i>
+          <el-icon class="myEmoji"><Orange /></el-icon>
+          <!-- <i class="el-icon-orange myEmoji"></i> -->
         </div>
         <div @click="openPicture()">
-          <i class="el-icon-picture myPicture"></i>
+          <el-icon class="myPicture"><Picture /></el-icon>
+          <!-- <i class="el-icon-picture myPicture"></i> -->
         </div>
       </div>
 

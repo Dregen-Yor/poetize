@@ -1,3 +1,6 @@
+<script setup>
+import { Star } from "@element-plus/icons-vue";
+</script>
 <template>
   <div>
     <div class="myAside-container">
@@ -20,7 +23,9 @@
           </div>
         </div>
         <a class="collection-btn" @click="showTip()">
-          <i class="el-icon-star-off" style="margin-right: 2px"></i>朋友圈
+          <el-icon style="margin-right: 2px"><Star /></el-icon>
+          <!-- <i class="el-icon-star-off" ></i> -->
+          朋友圈
         </a>
       </div>
 

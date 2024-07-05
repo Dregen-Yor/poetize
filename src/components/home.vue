@@ -1,6 +1,7 @@
 <script setup>
 import { useRouter } from 'vue-router'
 import { Sunny } from '@element-plus/icons-vue'
+import { Operation } from '@element-plus/icons-vue'
 // 在 setup 函数或者其他组合式 API 中
 const router = useRouter()
 </script>
@@ -20,7 +21,10 @@ const router = useRouter()
         <!-- 手机导航按钮 -->
         <div v-if="$common.mobile() || mobile" class="toolbar-mobile-menu" @click="toolbarDrawer = !toolbarDrawer"
           :class="{ enter: toolbar.enter }">
-          <i class="el-icon-s-operation"></i>
+          <el-icon>
+            <Operation />
+          </el-icon>
+          <!-- <i class="el-icon-s-operation"></i> -->
         </div>
 
         <!-- 导航列表 -->

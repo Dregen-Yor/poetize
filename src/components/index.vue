@@ -6,7 +6,7 @@ import articleList from "./articleList.vue";
 import sortArticle from "./common/sortArticle.vue";
 import myFooter from "./common/myFooter.vue";
 import myAside from "./myAside.vue";
-
+import { ArrowDown } from "@element-plus/icons-vue";
 </script>
 <template>
   <div>
@@ -44,7 +44,10 @@ import myAside from "./myAside.vue";
           </div>
           <div id="bannerWave1"></div>
           <div id="bannerWave2"></div>
-          <i class="el-icon-arrow-down" @click="navigation('.page-container-wrap')"></i>
+          <el-icon @click="navigation('.page-container-wrap')">
+            <ArrowDown/>
+          </el-icon>
+          <!-- <i class="el-icon-arrow-down" @click="navigation('.page-container-wrap')"></i> -->
         </div>
         <!-- 首页内容 -->
         <div class="page-container-wrap">

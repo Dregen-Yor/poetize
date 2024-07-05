@@ -1,5 +1,6 @@
 <script setup>
 import uploadPicture from '../common/uploadPicture.vue';
+import { Edit } from '@element-plus/icons-vue';
 </script>
 <template>
   <div>
@@ -65,7 +66,8 @@ import uploadPicture from '../common/uploadPicture.vue';
         <el-form-item label="提示" prop="waifuJson">
           <div style="display: flex">
             <el-input :disabled="disabled" :rows="6" type="textarea" v-model="webInfo.waifuJson"></el-input>
-            <i class="el-icon-edit my-icon" @click="disabled = !disabled"></i>
+            <el-icon class="my-icon" @click="disabled = !disabled"><Edit /></el-icon>
+            <!-- <i class="el-icon-edit my-icon" @click="disabled = !disabled"></i> -->
           </div>
         </el-form-item>
       </el-form>

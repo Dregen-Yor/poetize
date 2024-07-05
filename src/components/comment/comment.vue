@@ -1,9 +1,14 @@
+<script setup>
+import { Edit } from  '@element-plus/icons-vue'
+</script>
 <template>
   <div>
     <!-- 评论框 -->
     <div style="margin-bottom: 40px">
       <div class="comment-head">
-        <i class="el-icon-edit-outline" style="font-weight: bold;font-size: 22px;"></i> 留言
+        <el-icon style="font-weight: bold;font-size: 22px;"><Edit /></el-icon>
+        <!-- <i class="el-icon-edit-outline" style="font-weight: bold;font-size: 22px;"></i>  -->
+        留言
       </div>
       <div>
         <!-- 文字评论 -->
