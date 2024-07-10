@@ -1,5 +1,8 @@
 <script setup>
 import { Orange,Picture } from '@element-plus/icons-vue'
+import emoji from "../common/emoji.vue";
+import proButton from "../common/proButton.vue";
+import uploadPicture from "../common/uploadPicture.vue";
 </script>
 <template>
   <div>
@@ -57,16 +60,8 @@ import { Orange,Picture } from '@element-plus/icons-vue'
 </template>
 
 <script>
-  const emoji = () => import( "../common/emoji");
-  const proButton = () => import( "../common/proButton");
-  const uploadPicture = () => import( "../common/uploadPicture");
 
   export default {
-    components: {
-      emoji,
-      proButton,
-      uploadPicture
-    },
     props: {
       disableGraffiti: {
         type: Boolean,

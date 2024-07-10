@@ -1,6 +1,6 @@
 <script setup>
-import comment from "./comment/comment";
-import myFooter from "./common/myFooter";
+import comment from "./comment/comment.vue";
+import myFooter from "./common/myFooter.vue";
 </script>
 <template>
   <div>

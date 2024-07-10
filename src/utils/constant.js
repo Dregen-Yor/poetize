@@ -1,7 +1,7 @@
 export default {
   // 测试环境
-  baseURL: "http://localhost:5173/",
-  imBaseURL: "http://localhost:5173/im",
+  baseURL: "http://124.70.51.81:8081",
+  imBaseURL: "http://124.70.51.81:8081/im",
   webURL: "http://localhost:5173/",
 
   // 生产环境

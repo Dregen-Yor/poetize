@@ -1,6 +1,6 @@
 <script setup>
-import card from "./common/card";
-import proButton from "./common/proButton";
+import card from "./common/card.vue";
+import proButton from "./common/proButton.vue";
 </script>
 <template>
   <div>

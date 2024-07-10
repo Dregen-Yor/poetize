@@ -1,5 +1,5 @@
 <script setup>
-import uploadPicture from "../common/uploadPicture";
+import uploadPicture from "../common/uploadPicture.vue";
 </script>
 <template>
   <div>

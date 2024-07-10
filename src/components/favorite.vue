@@ -1,3 +1,8 @@
+<script setup>
+import myFooter from './common/myFooter.vue';
+import funny from './funny.vue';
+import friend from './friend.vue';
+</script>
 <template>
   <div>
     <div class="favorite-container">
@@ -108,17 +113,7 @@
 </template>
 
 <script>
-
-  const myFooter = () => import( "./common/myFooter");
-  const funny = () => import( "./funny");
-  const friend = () => import( "./friend");
-
   export default {
-    components: {
-      myFooter,
-      funny,
-      friend
-    },
 
     data() {
       return {

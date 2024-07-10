@@ -1,5 +1,7 @@
 <script setup>
 import { Edit } from  '@element-plus/icons-vue'
+import commentBox from './commentBox.vue';
+import proPage from '../common/proPage.vue';
 </script>
 <template>
   <div>
@@ -127,15 +129,9 @@ import { Edit } from  '@element-plus/icons-vue'
 
 <script>
   // const graffiti = () => import( "./graffiti");
-  const commentBox = () => import( "./commentBox");
-  const proPage = () => import( "../common/proPage");
+ 
 
   export default {
-    components: {
-      // graffiti,
-      commentBox,
-      proPage
-    },
     props: {
       source: {
         type: Number

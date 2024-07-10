@@ -1,4 +1,4 @@
-<script>
+<script setup>
 import proButton from "./common/proButton.vue";
 import uploadPicture from "./common/uploadPicture.vue";
 </script>

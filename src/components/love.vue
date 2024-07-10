@@ -1,11 +1,11 @@
 <script setup>
-import treeHole from "./common/treeHole";
-import comment from "./comment/comment";
-import myFooter from "./common/myFooter";
-import photo from "./common/photo";
-import proTag from "./common/proTag";
-import proButton from "./common/proButton";
-import uploadPicture from "./common/uploadPicture";
+import treeHole from "./common/treeHole.vue";
+import comment from "./comment/comment.vue";
+import myFooter from "./common/myFooter.vue";
+import photo from "./common/photo.vue";
+import proTag from "./common/proTag.vue";
+import proButton from "./common/proButton.vue";
+import uploadPicture from "./common/uploadPicture.vue";
 </script>
 <template>
   <div>
